@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.1.4">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1368, 912]" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="GPHD" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="MIDDLE_BUTTON" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="Intro">
+      <TextComponent name="Welcome">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="Welcome" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Hello! This experiment demontrates how to interface your GP eye-tracker with the lovely PsychoPy Builder.  " valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'y','n','left','right','space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <CodeComponent name="calibrate_GP">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="#make sure the constraints.py file is in experiment folder&amp;#10;import os&amp;#10;import time&amp;#10;&amp;#10;from opengaze import OpenGazeTracker&amp;#10;&amp;#10;# Construct the path to the log file.&amp;#10;dirname = os.path.dirname(os.path.abspath(__file__))&amp;#10;fname = os.path.join(dirname, '%s.tsv' % (time.strftime(&quot;%Y-%m-%d_%H-%M-%S&quot;)))&amp;#10;&amp;#10;# Open the connection to the tracker.&amp;#10;tracker = OpenGazeTracker(logfile=fname, debug=False)&amp;#10;time.sleep(1.0)&amp;#10;&amp;#10;# Enable the tracker to send ALL the things.&amp;#10;tracker.enable_send_counter(True)&amp;#10;tracker.enable_send_cursor(True)&amp;#10;tracker.enable_send_eye_left(True)&amp;#10;tracker.enable_send_eye_right(True)&amp;#10;tracker.enable_send_pog_best(True)&amp;#10;tracker.enable_send_pog_fix(True)&amp;#10;tracker.enable_send_pog_left(True)&amp;#10;tracker.enable_send_pog_right(True)&amp;#10;tracker.enable_send_pupil_left(True)&amp;#10;tracker.enable_send_pupil_right(True)&amp;#10;tracker.enable_send_time(True)&amp;#10;tracker.enable_send_time_tick(True)&amp;#10;tracker.enable_send_user_data(True)&amp;#10;tracker.enable_send_blink(True)&amp;#10;tracker.enable_send_pupilmm(True)&amp;#10;tracker.enable_send_dial(True)&amp;#10;tracker.enable_send_gsr(True)&amp;#10;tracker.enable_send_heart_rate(True)&amp;#10;tracker.enable_send_heart_rate_pulse(True)&amp;#10;tracker.enable_send_ttl(True)&amp;#10;tracker.enable_send_user_data(True)&amp;#10;# Reset the user-defined variable.&amp;#10;tracker.user_data(&quot;0&quot;)&amp;#10;&amp;#10;# # # # #&amp;#10;# CALIBRATION&amp;#10;&amp;#10;# Reset the calibration to its default points.&amp;#10;tracker.calibrate_reset()&amp;#10;&amp;#10;# Show the calibration screen.&amp;#10;tracker.calibrate_show(True)&amp;#10;&amp;#10;# Start the calibration.&amp;#10;tracker.calibrate_start(True)&amp;#10;&amp;#10;# Wait for the calibration result.&amp;#10;result = None&amp;#10;while result == None:&amp;#10;    result = tracker.get_calibration_result()&amp;#10;    time.sleep(0.1)&amp;#10;&amp;#10;# Hide the calibration window.&amp;#10;tracker.calibrate_show(False)&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="import * as os from 'os';&amp;#10;import {BGC, BLOCKLENGTHS, DISPSIZE, DISPTYPE, FGC, LOGFILE, LOGFILENAME, LOG_BEH, SUBJECT, TRACKERTYPE} from 'constants';&amp;#10;import {Display} from 'pygaze/display';&amp;#10;import {Screen} from 'pygaze/screen';&amp;#10;import {Keyboard} from 'pygaze/keyboard';&amp;#10;import {EyeTracker} from 'pygaze/eyetracker';&amp;#10;import * as timer from 'pygaze/libtime';&amp;#10;import * as random from 'random';&amp;#10;import * as easygui from 'easygui';&amp;#10;import * as pygameimport from 'pygameimport';&amp;#10;var disp, header, line, log_beh, log_beh_name, msg, scr, subject, title, tracker;&amp;#10;disp = new Display();&amp;#10;log_beh_name = (LOG_BEH + &quot;.tsv&quot;);&amp;#10;if (os.path.isfile(log_beh_name)) {&amp;#10;    msg = &quot;A datafile with this subject number already exists.    \nAre you sure you want to overwrite an existing datafile?&quot;;&amp;#10;    title = &quot;ERROR: File already exists&quot;;&amp;#10;    if (easygui.ccbox(msg, title)) {&amp;#10;    } else {&amp;#10;        disp.close();&amp;#10;        exit();&amp;#10;    }&amp;#10;}&amp;#10;disp = new Display();&amp;#10;scr = new Screen();&amp;#10;log_beh = open((LOG_BEH + &quot;.tsv&quot;), &quot;w&quot;);&amp;#10;subject = SUBJECT;&amp;#10;header = [&quot;subject&quot;, &quot;block&quot;, &quot;trial&quot;, &quot;rt&quot;, &quot;waittime&quot;, &quot;proberesp&quot;];&amp;#10;line = map(str, header);&amp;#10;line = &quot;\t&quot;.join(line);&amp;#10;line += &quot;\n&quot;;&amp;#10;log_beh.write(line);&amp;#10;tracker = new EyeTracker(disp);&amp;#10;tracker.calibrate();&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="# # # # #&amp;#10;# CLOSE&amp;#10;&amp;#10;# Close the connection.&amp;#10;tracker.close()" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="calibrate_GP" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="text_hi">
+      <TextComponent name="text_2">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="num"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="num"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="num"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2" valType="num"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Hi! " valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <CodeComponent name="code_2">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="tracker.enable_send_data(true);&amp;#10;tracker.user_data(&quot;START_TEXT&quot;);&amp;#10;tracker.user_data(&quot;0&quot;);&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="# # # # #&amp;#10;# DATA COLLECTION&amp;#10;&amp;#10;# Start the streaming of data.&amp;#10;tracker.enable_send_data(True)&amp;#10;&amp;#10;# Log the start.&amp;#10;tracker.user_data(&quot;START_TEXT&quot;)&amp;#10;tracker.user_data(&quot;0&quot;)&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="# Stop the streaming of data.&amp;#10;tracker.enable_send_data(False)&amp;#10;&amp;#10;# # # # #&amp;#10;# CLOSE&amp;#10;&amp;#10;# Close the connection.&amp;#10;tracker.close()" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="tracker.enable_send_data(false);&amp;#10;" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="# Log the end of data collection.&amp;#10;tracker.user_data(&quot;STOP_TEXT&quot;)&amp;#10;tracker.user_data(&quot;0&quot;)" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Intro"/>
+    <Routine name="text_hi"/>
+  </Flow>
+</PsychoPy2experiment>
