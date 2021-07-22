@@ -1,2 +1,2 @@
 # GazePoint_PsychoBuilder_Template
-Template Builder Script for GP ET and Biometric Systems
+Template Builder Script for GP ET and Biometric System
